@@ -1,20 +1,61 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-Hant">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./mypage.css">
+    <title>mypage</title>
+    <meta name="description" content=“mypage">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="mypage.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        
+        $(document).ready(function(){
+            $("#btn").click(function(){
+            $("#myself").fadeToggle("slow");
+            
+            });
+ 
+        });
+    
+    </script>
 </head>
-<h1>姓名：李信彤</h1>
 <body>
-    <p>大家好</p>
-    <p>目前就讀輔仁大學</p>
-    <p>參與的社團：台大流唱社</p>
-    <p>興趣：唱歌/打球/滑雪</p>
-    <img src="https://www.lifeofpix.com/wp-content/uploads/2021/08/image00021-1600x2133.jpeg" width="300"  alt="snow">
+    <header>
+    <h1 class="headerTitle" id="h1">Introduce myself</h1>
+  <h3 class="headerTest">想認識我嗎😎</h3>  
+</header>
 
 
+<main>
+    <section class="left">
+        <p>姓名：李信彤</p>
+            <p>目前學歷：輔仁大學醫資學程二年級</p>
+            <p>參與社團：台大流唱社</p>
+            <p>興趣：唱歌/打球/表演</p>
+        <p>特殊技能：合氣道/滑雪/吹上低音號</p>
+        <img src="./IMG_7038.jpg" alt="7038" width="375" id="myself">
+        <br>
+        <a href="https://www.instagram.com/ice_tong.1005/"><img src="https://cdn2.ettoday.net/images/2956/d2956000.jpg" border="0" width="50"></a>
+    </section>
+        <section class="center">
+            <p>團體：孤單山羊</p>
+            <p>成員：菇、丹、珊、楊</p>
+            <p>簡介：我們是孤單山羊～ㄇㄟㄇㄟㄇㄟㄇ</p>
+             <p>   這是四個大學女生紀錄美好生活的地方</p>
+             <p>  歡迎大家訂閱我們🥰</p>
+             <p>  下面是我們預期要觸及的平台</p>
+             <p>  希望我們成功❤️</p>
+        <iframe width="400" height="230" src="https://www.youtube.com/embed/NGzl5L-6zwc?start=2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>YouTube</iframe>
+        <br>
+        <a href="https://www.instagram.com/lonely.goat_/"><img src="https://cdn2.ettoday.net/images/2956/d2956000.jpg" border="0" width="50"></a>   
+</section>
+    <section class="right">
+        <a href="https://doralee1005.wixsite.com/my-site-1"><img src="./IMG_7229.jpg" border="0" width="505">more photos</a>
+
+</section>
+</main>
 </body>
 </html>
